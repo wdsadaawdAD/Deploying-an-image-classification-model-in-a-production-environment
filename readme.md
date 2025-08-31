@@ -67,7 +67,7 @@
 
 1. 克隆项目代码：
 ```bash
-# 在GitCode上克隆项目
+# 在GitHub上克隆项目
 ```
 
 2. 安装依赖包：
@@ -91,8 +91,8 @@ pip install torch==2.3.0 torchvision==0.18.0 Pillow numpy scikit-learn tqdm
 使用以下命令启动模型训练：
 
 ```bash
-cd /home/xpr/project
-python main/main.py --mode train --filepath /home/xpr/project/model/ --data_path /path/to/your/dataset
+cd /project/main
+python main.py --mode train --filepath /home/xpr/project/model/ --data_path /path/to/your/dataset
 ```
 
 参数说明：
@@ -105,8 +105,8 @@ python main/main.py --mode train --filepath /home/xpr/project/model/ --data_path
 使用以下命令启动模型推理：
 
 ```bash
-cd /home/xpr/project
-python main/main.py --mode infere --filepath /home/xpr/project/model/ --data_path None
+cd /project/main
+python main.py --mode infere --filepath /home/xpr/project/model/ --data_path None
 ```
 
 参数说明：
