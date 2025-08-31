@@ -1,0 +1,9 @@
+#torch==2.3.0+cu121
+#用户可以自行匹配cuda版本，这里默认是cu121
+#也可以使用cpu版本
+torch==2.3.0
+torchvision==0.18.0
+Pillow>=9.0.0
+numpy>=1.20.0
+scikit-learn>=1.0.0
+tqdm>=4.60.0
